@@ -5,7 +5,6 @@ export class Tasks extends Entity {
   @property({
     type: 'string',
     id: true,
-    defaultFn: 'id', 
   })
   id?: string;
   
